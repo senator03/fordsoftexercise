@@ -88,3 +88,77 @@ function getTotalGrade(Score){
 //     startingIndex++;
 //     console.log("#######################################################################")
 // }
+
+
+for (let i = 0; i < 10; i++) {
+  if (i == 2 || i == 5) {
+    continue;
+  }
+  console.log(i)
+}
+
+// function addNew(name, phone, email, dept, salary, empdate) {
+//   let new_employee = {name: name, phone: phone, email: email, dept: dept, salary: salary, empdate: empdate};
+//   arr.push(new_employee)
+//   console.log(new_employee);
+// }
+
+// addNew('praise',9123848558, 'praise@gmail.com', 'engineering', 100_000,  new Date("2029-04-7"))
+
+
+// // 1
+// myColor = ["Red", "Green", "White", "Black"];
+// console.log(myColor.toString());
+// console.log(myColor.join());
+// console.log(myColor.join("+"));
+// console.log("=====================================")
+
+// //4
+// var numbers = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
+// var nums = numbers.filter((even) => even % 2 == 0);
+// console.log(nums);;
+// console.log("====================================")
+
+// var num = [-3, 8, 7, 6, 5, -4, 3, 2, 1];
+// let sortedArray = num.sort();
+// console.log(sortedArray);
+// console.log("=============================")
+
+// //7
+// function calcHypotenus(base,  per) { 
+//     return Math.sqrt(base*base  + per*per) ; 
+// } 
+// console.log(calcHypotenus(5, 5))
+// //5
+//  let animal=['lion', 'gorilla', 'Dog', 'kangaroo', 'cat', 'elephant']
+//  function fiveChar(animal) {
+//    return animal.filter(function(animal) { 
+//   return animal.length <=  5;
+//    });
+//  }
+//  console.log(animal)
+
+ 
+//  const personList = [
+//    {
+//     name: "John",
+//      occupation: "Data Scientist",
+//      age: 34,
+//    },
+//    {
+//      name: "Kola",
+//      occupation: "Biodata Scientist",
+//      age: 32,
+//    },
+//    {
+//      name: "John",
+//      occupation: "Data Analyst",
+//      age: 12,
+//    },
+// ];
+
+// function list(occupation) {
+//   return occupation();
+// } 
+// console.log(occupation);
+
